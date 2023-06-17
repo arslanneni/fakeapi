@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
+
 import './App.css';
+import DataButton from './components/DataButton';
 
 function App() {
+
   return (
     <div className="App">
-      <h1>React App</h1>
+      <DataButton/>
     </div>
   );
 }
